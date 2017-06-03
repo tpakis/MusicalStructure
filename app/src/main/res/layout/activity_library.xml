@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/medium_margin"
+    tools:context="com.example.android.musicalstructure.PlaylistActivity">
+
+    <TextView
+        android:id="@+id/text_libraryTitle"
+        style="@style/Titles"
+        android:text="@string/library_title" />
+
+    <TextView
+        android:id="@+id/text_details"
+        style="@style/Dexcriptions"
+        android:layout_below="@id/text_libraryTitle"
+        android:text="@string/library_description" />
+
+</RelativeLayout>

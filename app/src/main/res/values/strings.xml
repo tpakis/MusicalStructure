@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="play_now">&#xf04b; Play Now!</string>
+    <string name="library">&#xf07b; Library</string>
+    <string name="playlists">&#xf03a; Playlists</string>
+    <string name="car_mode">&#xf1b9; Car Mode</string>
+    <string name="play_button">&#xf04b;</string>
+    <string name="stop_button">&#xf04d;</string>
+    <string name="next_button">&#xf051;</string>
+    <string name="previous_button">&#xf048;</string>
+    <string name="playlist_button">Load Playlist</string>
+    <string name="current_song">Current playing or last song title</string>
+    <string name="library_description">A simple file manager will be in this activity. It will show the folders of the device and allow the user to select a file or multiple to play instantly or add the to a playlist.</string>
+    <string name="playlists_description">A list with the stored playlists made by the user will be here. Also there will be buttons to create new playlist or start playing the songs in a playlist</string>
+    <string name="carmode_description">This activity will have a limited number of large buttons for play/stop next previous and select playlist for easy use while driving</string>
+    <string name="playingnow_description">This activity will show some artwork of the current song, the title, a seek bar for the duration, the main play control buttons and a button for loading a playlist. In order to play the music it will use the MediaPlayer class provided in the Android multimedia framework.</string>
+    <string name="playingnow_title">PLAYING NOW</string>
+    <string name="mainmenu_title">MAIN MENU</string>
+    <string name="mainmenu_description">This main screen will help the user navigate the app and provide him with options for playing the music he wants. Either from a predifined or newly created list or instantly the last played song. </string>
+    <string name="library_title">LIBRARY</string>
+    <string name="playlists_title">PLAYLISTS</string>
+    <string name="carmode_title">CAR MODE</string>
+    <string name="song_title">Song Title - Artist Name</string>
+</resources>

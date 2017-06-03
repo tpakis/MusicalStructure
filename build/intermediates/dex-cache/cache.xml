@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikos\Desktop\My Code\android studio\MusicalStructure\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27ff1d4d767612e87b710a7cb22833d5021b9476">
+        <dex dex="C:\Users\Nikos\Desktop\My Code\android studio\MusicalStructure\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_10fd6d293469c3dee8339ee44f9d97dc7bfb496b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikos\Desktop\My Code\android studio\MusicalStructure\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Nikos\Desktop\My Code\android studio\MusicalStructure\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b4644a37a56e1e86dead374bbf28f8d00552c2d2\classes.dex" />
+    </item>
+
+</items>

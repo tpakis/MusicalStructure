@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/medium_margin"
+    tools:context="com.example.android.musicalstructure.PlaylistActivity">
+
+    <TextView
+        android:id="@+id/text_carModeTitle"
+        style="@style/Titles"
+        android:text="@string/carmode_title" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Dexcriptions"
+        android:layout_below="@id/text_carModeTitle"
+        android:text="@string/carmode_description" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/small_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/car_play"
+            style="@style/CarButtons"
+            android:background="@color/colorPlay"
+            android:text="@string/play_button" />
+
+        <Button
+            android:id="@+id/car_stop"
+            style="@style/CarButtons"
+            android:background="@color/colorStop"
+            android:text="@string/stop_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/small_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/car_prev"
+            style="@style/CarButtons"
+            android:background="@color/colorPrev"
+            android:text="@string/previous_button" />
+
+        <Button
+            android:id="@+id/car_next"
+            style="@style/CarButtons"
+            android:background="@color/colorNext"
+            android:text="@string/next_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/small_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/car_voldown"
+            style="@style/CarButtons"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/car_volup"
+            style="@style/CarButtons"
+            android:text="+" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/car_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@color/colorPrimaryDark"
+        android:text="Exit" />
+
+</RelativeLayout>
